@@ -3,6 +3,8 @@
   "private": true,
   "homepage": "https://0wx.github.io/indes-frontend",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
@@ -10,6 +12,7 @@
   },
   "dependencies": {
     "cookie-cutter": "^0.2.0",
+    "gh-pages": "^3.2.3",
     "next": "12.0.4",
     "nookies": "^2.5.2",
     "react": "17.0.2",
