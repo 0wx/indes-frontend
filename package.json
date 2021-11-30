@@ -1,16 +1,20 @@
 {
   "name": "indes-frontend",
   "private": true,
+  "homepage": "https://0wx.github.io/indes-frontend",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "cookie-cutter": "^0.2.0",
     "next": "12.0.4",
+    "nookies": "^2.5.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.43.5"
   },
   "devDependencies": {
     "@types/node": "16.11.10",
